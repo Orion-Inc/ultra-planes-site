@@ -53,7 +53,7 @@
                 <div>
                     <span class="type--fine-print">&copy;
                     <span class="update-year"></span> Stack Inc.</span>
-                    <a class="type--fine-print" href="#">Privacy Policy</a>
+                    <a class="type--fine-print" href="privacy-policy">Privacy Policy</a>
                 </div>
             </div>
         </div>
