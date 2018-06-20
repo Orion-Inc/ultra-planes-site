@@ -51,18 +51,12 @@
                     </ul>
                 </div>
                 <div>
-                    <span class="type--fine-print">Made in Melbourne</span>
-                    <img alt="Image" class="flag" src="img/flag-2.png" />
-                </div>
-                <div>
                     <span class="type--fine-print">&copy;
-                        <span class="update-year"></span> Stack Inc.</span>
+                    <span class="update-year"></span> Stack Inc.</span>
                     <a class="type--fine-print" href="#">Privacy Policy</a>
-                    <a class="type--fine-print" href="#">Legal</a>
                 </div>
             </div>
         </div>
         <!--end of row-->
     </div>
-    <!--end of container-->
 </footer>

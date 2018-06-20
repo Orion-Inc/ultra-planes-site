@@ -20,14 +20,12 @@
 			include 'resources/partials/'.$tree.'/'.$partialName.'.php';
 		}
 
-		public static function asset($assetName)
+		public static function asset($assetName, $type)
 		{
 			if (isset($_GET['url']) && $_GET['url'] != 'index') {
 				$tree = '../';
-			}else{
-				$tree = './';
 			}
-			echo  $tree.'assets/'.$assetName;
+			echo  $tree.'assets/'.$type.'/'.$assetName;
 		}
 	}
 ?>
