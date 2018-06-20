@@ -22,10 +22,7 @@
 
 		public static function asset($assetName, $type)
 		{
-			if (isset($_GET['url']) && $_GET['url'] != 'index') {
-				$tree = '../';
-			}
-			echo  $tree.'assets/'.$type.'/'.$assetName;
+			echo  'assets/'.$type.'/'.$assetName;
 		}
 	}
 ?>

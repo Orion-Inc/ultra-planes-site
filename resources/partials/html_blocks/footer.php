@@ -51,6 +51,9 @@
                     </ul>
                 </div>
                 <div>
+                    <img alt="Image" class="flag" src="img/flag-2.png" />
+                </div>
+                <div>
                     <span class="type--fine-print">&copy;
                     <span class="update-year"></span> Stack Inc.</span>
                     <a class="type--fine-print" href="privacy-policy">Privacy Policy</a>
