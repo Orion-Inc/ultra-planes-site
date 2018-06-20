@@ -1,8 +1,8 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Stack Multipurpose HTML Template</title>
+        <title>Ultra Planes - </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Site Description Here">
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
