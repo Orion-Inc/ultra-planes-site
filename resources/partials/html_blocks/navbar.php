@@ -1,5 +1,5 @@
-<div class="nav-container ">
-    <nav class="bar bar-toggle ">
+<div class="nav-container">
+    <nav class="bar bar-toggle pt-0 pb-0">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-6">
