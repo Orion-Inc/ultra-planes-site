@@ -4,7 +4,7 @@
     <?php App::ViewPartial('header', 'html_blocks')?>
     <body class=" ">
         <a id="start"></a>
-        <?php App::ViewPartial('side-bar', 'html_blocks')?>
+        <?php App::ViewPartial('navbar', 'html_blocks')?>
         <div class="main-container">
             <?php require_once 'config/Routes/Routes.php'; ?>
             <?php App::ViewPartial('footer', 'html_blocks')?>
