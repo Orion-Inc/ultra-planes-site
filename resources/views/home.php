@@ -1,4 +1,4 @@
-<section class="cover height-60">
+<section class="cover height-60 hidden">
     <div class="container pos-vertical-center">
         <div class="row">
             <div class="col-md-11 col-lg-8">
@@ -54,7 +54,7 @@
     </div>
     <!--end of container-->
 </section>
-<section class="bg--secondary">
+<section class="bg--secondary hidden">
     <div class="container">
         <div class="row">
             <div class="col-md-4">
@@ -107,7 +107,7 @@
     </div>
     <!--end of container-->
 </section>
-<section class=" bg--secondary">
+<section class=" bg--secondary hidden">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -160,7 +160,7 @@
     </div>
     <!--end of container-->
 </section>
-<section class="video video-1 text-center imagebg space--lg" data-overlay="3">
+<section class="video video-1 text-center imagebg space--lg hidden" data-overlay="3">
     <div class="background-image-holder">
         <img alt="background" src="img/cowork-1.jpg" />
     </div>

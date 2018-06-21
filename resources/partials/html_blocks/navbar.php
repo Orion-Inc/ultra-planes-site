@@ -4,7 +4,7 @@
             <div class="row align-items-center">
                 <div class="col-6">
                     <div class="bar__module">
-                        <a href="index.html">
+                        <a href="home">
                             <img class="logo logo-dark" alt="logo" src="img/logo-dark.png" />
                             <img class="logo logo-light" alt="logo" src="img/logo-light.png" />
                         </a>
@@ -22,26 +22,23 @@
                                     <div class="pos-vertical-center pos-asbolute text-center">
                                         <div class="heading-block">
                                             <img alt="Image" src="img/logo-light.png" class="logo image--xs" />
-                                            <p class="lead">
+                                            <p class="lead hidden">
                                                 A robust, multipurpose HTML template with
                                                 <br class="hidden-xs hidden-sm" /> over 290 interface blocks.
                                             </p>
                                         </div>
                                         <ul class="menu-vertical">
                                             <li class="h4">
-                                                <a href="#">Home</a>
+                                                <a href="home">Home</a>
                                             </li>
                                             <li class="h4">
-                                                <a href="#">About</a>
+                                                <a href="about">About</a>
                                             </li>
                                             <li class="h4">
-                                                <a href="#">Services</a>
+                                                <a href="privacy-policy">Privacy Policy</a>
                                             </li>
                                             <li class="h4">
-                                                <a href="#">Work</a>
-                                            </li>
-                                            <li class="h4">
-                                                <a href="#">Contact</a>
+                                                <a href="contact">Contact</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -69,7 +66,7 @@
                                                 </a>
                                             </li>
                                         </ul>
-                                        <p class="type--fine-print type--fade">&copy; Copyright 2016 &mdash; Medium Rare</p>
+                                        <p class="type--fine-print type--fade">&copy; Copyright <?php App::show(date('Y'))?> &mdash; Medium Rare</p>
                                     </div>
                                 </div>
                             </div>

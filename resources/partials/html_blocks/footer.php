@@ -10,12 +10,12 @@
                     </li>
                     <li>
                         <a href="#">
-                            <span class="h6 type--uppercase">Careers</span>
+                            <span class="h6 type--uppercase">Privacy Policy</span>
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <span class="h6 type--uppercase">Support</span>
+                            <span class="h6 type--uppercase">Contact</span>
                         </a>
                     </li>
                 </ul>
@@ -49,12 +49,13 @@
         <div class="row">
             <div class="col-md-7">
                 <span class="type--fine-print">&copy;
-                    <span class="update-year"></span> Stack Inc.</span>
-                <a class="type--fine-print" href="#">Privacy Policy</a>
-                <a class="type--fine-print" href="#">Legal</a>
+                    <span class="update-year"></span> <img>
+                </span>
+                <a class="type--fine-print" href="#">About Orion</a>
+                <a class="type--fine-print" href="#">Our Services</a>
             </div>
             <div class="col-md-5 text-right text-center-xs">
-                <a class="type--fine-print" href="#">support@stack.io</a>
+                <a class="type--fine-print" href="#">email</a>
             </div>
         </div>
         <!--end of row-->
