@@ -5,8 +5,8 @@
                 <div class="col-6">
                     <div class="bar__module">
                         <a href="home">
-                            <img class="logo logo-dark" alt="logo" src="img/logo-dark.png" />
-                            <img class="logo logo-light" alt="logo" src="img/logo-light.png" />
+                            <img class="logo logo-dark" alt="logo" src="<?php App::asset('logo-3.png','img')?>" />
+                            <img class="logo logo-light" alt="logo" src="<?php App::asset('logo-3.png','img')?>" />
                         </a>
                     </div>
                     <!--end module-->
@@ -21,7 +21,7 @@
                                 <div class="modal-content" data-width="100%" data-height="100%">
                                     <div class="pos-vertical-center pos-asbolute text-center">
                                         <div class="heading-block">
-                                            <img alt="Image" src="img/logo-light.png" class="logo image--xs" />
+                                            <img alt="Image" src="<?php App::asset('logo-2.png','img')?>" class="logo image--md" />
                                             <p class="lead hidden">
                                                 A robust, multipurpose HTML template with
                                                 <br class="hidden-xs hidden-sm" /> over 290 interface blocks.
@@ -66,7 +66,12 @@
                                                 </a>
                                             </li>
                                         </ul>
-                                        <p class="type--fine-print type--fade">&copy; Copyright <?php App::show(date('Y'))?> &mdash; Medium Rare</p>
+                                        <p class="type--fine-print">
+                                            &copy; <?php App::show(date('Y'))?> 
+                                            <a href="https://www.orionic.tech/" target="_blank" style="text-decoration:none;">
+                                                <img src="<?php App::asset('logo-dark.png','img')?>" height="12px" style="margin-top:-4px;">
+                                            </a>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
