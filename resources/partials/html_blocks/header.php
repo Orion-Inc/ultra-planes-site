@@ -1,6 +1,6 @@
 <head>
     <meta charset="utf-8">
-    <title>Ultra Planes - </title>
+    <title>Ultra Planes - <?php App::show(Route::title($_GET['url']))?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Site Description Here">
     <link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
