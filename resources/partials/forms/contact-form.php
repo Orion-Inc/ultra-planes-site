@@ -1,4 +1,4 @@
-<form class="form-email" data-success="Thanks for your enquiry, we'll be in touch shortly." data-error="Please fill in all fields correctly.">
+<form class="form-email" data-success="Thanks for your message, we'll be in touch shortly." data-error="Please make sure all required fields have been filled.">
     <div class="row">
         <div class="col-md-6">
             <span>Your Full Name</span>
