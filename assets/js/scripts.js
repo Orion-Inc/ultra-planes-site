@@ -955,7 +955,7 @@ mr = (function (mr, $, window, document){
             
             // validateFields returns 1 on error;
             if (mr.forms.validateFields(thisForm) !== 1) {
-               
+            
                 thisForm.removeClass('attempted-submit');
 
                 // Hide the error if one was shown
@@ -968,7 +968,7 @@ mr = (function (mr, $, window, document){
                         url: thisForm.attr('action'),
                         crossDomain: true,
                         data: thisForm.serialize(),
-                        method: "GET",
+                        method: "POST",
                         cache: false,
                         dataType: 'json',
                         contentType: 'application/json; charset=utf-8',

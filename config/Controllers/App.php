@@ -1,6 +1,14 @@
 <?php 
 	class App extends Database
 	{
+		public $MailHost = 'smtp.ipage.com';
+        public $MailPort = 587;//80, 3535, 25, 465, 587
+        public $MailSMTPAuth = true;
+        //public $MailSMTPSecure = 'tls';
+        public $MailUsername = 'sms@orionic.tech';
+        public $MailPassword = 'sms@Oriondope$1000';
+
+
 		public function show($text = "")
 		{
 			if ((string)$text != "") {
