@@ -24,6 +24,9 @@
     //$mail->SMTPSecure = $app->MailSMTPSecure;                          // Enable TLS encryption, `ssl` also accepted
     $mail->Port = $app->MailPort;                                      // TCP port to connect to
 
+    $orion_email = $app->MailUsername;
+    $orion_name = 'Orion Games'
+
     $data = $_POST;
 
     if (!filter_var($data['email'], FILTER_VALIDATE_EMAIL)) {
@@ -37,7 +40,7 @@
     try {
         //Recipients
         $mail->setFrom($sender_email, $sender_name);
-        $mail->addAddress($sender_email, $sender_name);
+        $mail->addAddress($orion_email, $orion_name);
         $mail->addReplyTo($sender_email, $sender_name);
             
         //Content
