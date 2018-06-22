@@ -25,7 +25,7 @@
     $mail->Port = $app->MailPort;                                      // TCP port to connect to
 
     $orion_email = $app->MailUsername;
-    $orion_name = 'Orion Games';
+    $orion_name = 'Orion Ltd.';
 
     $data = $_POST;
 
@@ -35,25 +35,32 @@
 
     $sender_name = $data['name'];
     $sender_email = $data['email'];
-    $sender_message = $data['message'];
+    $sender_message = $data['description'];
+
+    $body = "
+        <p>From: {$sender_name}</p>
+        <p>Email: <a href='mailto:{$sender_email}'>{$sender_email}</a></p>
+        <hr>
+        <p>{$sender_message}</p>
+    ";
 
     try {
         //Recipients
-        $mail->setFrom($sender_email, $sender_name);
-        $mail->addAddress($orion_email, $orion_name);
-        $mail->addReplyTo($sender_email, $sender_name);
+        $mail->setFrom($orion_email, $orion_name);
+        $mail->addAddress('games.oriongh@gmail.com', 'Orion Games');
+        $mail->addReplyTo($orion_email, $orion_name);
             
         //Content
         $mail->isHTML(true);                                  // Set email format to HTML
         $mail->Subject = 'New Message';
-        $mail->Body = $sender_message;
-        $mail->AltBody = $sender_message;
+        $mail->Body = $body;
+        $mail->AltBody = "From:{$sender_name}\n Email:{$sender_email} \n Message:{$sender_message}";
 
         $mail->send();
 
         $response = array('result' => 'success', 'Status' => 200);
     } catch (Exception $e) {
-        $response = array('result' => 'error', 'Status' => 500);
+        $response = array('result' => 'error', 'Status' => 500, 'msg' => 'An error occured while trying to send the message. Please try again.');
     }
 
     echo json_encode($response);
