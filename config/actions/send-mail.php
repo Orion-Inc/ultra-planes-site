@@ -25,7 +25,7 @@
     $mail->Port = $app->MailPort;                                      // TCP port to connect to
 
     $orion_email = $app->MailUsername;
-    $orion_name = 'Orion Games'
+    $orion_name = 'Orion Games';
 
     $data = $_POST;
 
