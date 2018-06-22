@@ -2,17 +2,14 @@
     use PHPMailer\PHPMailer\PHPMailer;
     use PHPMailer\PHPMailer\Exception;
 
-    require_once '../Autoloader.php';
-    require '../../PHPMailer/src/Exception.php';
-    require '../../PHPMailer/src/PHPMailer.php';
-    require '../../PHPMailer/src/SMTP.php';
+    require_once 'Autoloader.php';
+    require '../PHPMailer/src/Exception.php';
+    require '../PHPMailer/src/PHPMailer.php';
+    require '../PHPMailer/src/SMTP.php';
 
 
     $app = new App();
     $mail = new PHPMailer(true);
-
-    $sender_name = '';
-    $sender_email = '';
 
 
     $errors = array();
@@ -27,24 +24,27 @@
     //$mail->SMTPSecure = $app->MailSMTPSecure;                          // Enable TLS encryption, `ssl` also accepted
     $mail->Port = $app->MailPort;                                      // TCP port to connect to
 
-    $data = $_POST['register'];
+    $data = $_POST;
 
-/*
     if (!filter_var($data['email'], FILTER_VALIDATE_EMAIL)) {
-        $errors[] = array('message' => 'Please enter a valid email address');
-    } 
+        $response = 'Please enter a valid email address.';
+    }
+
+    $sender_name = $data['name'];
+    $sender_email = $data['email'];
+    $sender_message = $data['message'];
 
     try {
         //Recipients
         $mail->setFrom($sender_email, $sender_name);
-        $mail->addAddress($email, $fullname);
+        $mail->addAddress($sender_email, $sender_name);
         $mail->addReplyTo($sender_email, $sender_name);
             
-            //Content
+        //Content
         $mail->isHTML(true);                                  // Set email format to HTML
         $mail->Subject = 'New Message';
-        $mail->Body = $body;
-        $mail->AltBody = "";
+        $mail->Body = $sender_message;
+        $mail->AltBody = $sender_message;
 
         $mail->send();
 
@@ -54,5 +54,4 @@
     }
 
     echo json_encode($response);
-*/
 ?>
