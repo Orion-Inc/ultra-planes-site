@@ -191,7 +191,7 @@ h6,
 .h5,
 .h6 {
     font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
-    color: #252525;
+    color: #f5f5f5;
     font-weight: 300;
     font-variant-ligatures: common-ligatures;
     margin-top: 0;
@@ -3383,8 +3383,14 @@ div[class*='col-'][class*='-6'] .video-cover iframe {
 
 /**! 26. Colors **/
 
+
+/*
 body {
     background: #ffffff;
+}*/
+
+body {
+    background: #000000;
 }
 
 .color--primary {
