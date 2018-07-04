@@ -1,6 +1,6 @@
 <section class="cover height-100 imagebg" data-overlay="4">
     <div class="background-image-holder">
-        <img alt="background" src="img/inner-1.jpg" />
+        <img alt="background" src="<?php App::asset('bg-2.png','img/backgrounds')?>"/>
     </div>
     <div class="container pos-vertical-center">
         <div class="row">

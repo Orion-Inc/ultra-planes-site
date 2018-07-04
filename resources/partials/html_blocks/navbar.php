@@ -69,7 +69,7 @@
                                         <p class="type--fine-print">
                                             &copy; <?php App::show(date('Y'))?> 
                                             <a href="https://www.orionic.tech/" target="_blank" style="text-decoration:none;">
-                                                <img src="<?php App::asset('logo-dark.png','img')?>" height="12px" style="margin-top:-4px;">
+                                                <img src="<?php App::asset('logo-light.png','img')?>" height="12px" style="margin-top:-4px;">
                                             </a>
                                         </p>
                                     </div>

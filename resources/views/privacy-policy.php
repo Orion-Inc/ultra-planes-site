@@ -17,7 +17,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class = "row">
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                     <i class="fab fa-adversal fa-5x"></i>
                                 </div>
                                 <div class="col-md-8">
@@ -31,7 +31,7 @@
                                 </div>
                             </div>
                             <div class = "row">
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                 <i class="fas fa-warehouse fa-5x"></i>
                                 </div>
                                 <div class="col-md-8">
@@ -47,7 +47,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class = "row">
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                     <i class="fas fa-chart-area fa-5x"></i>
                                 </div>
                                 <div class="col-md-8">
@@ -94,7 +94,7 @@
                 <!--end of summary policy-->
                 <hr>
                 <div class="col-md-12">
-                        <h2>Full policy</h2>
+                    <h2>Full policy</h2>
                 </div>
                 <hr>
                 <div class="row">

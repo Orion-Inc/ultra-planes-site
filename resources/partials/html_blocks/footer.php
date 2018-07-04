@@ -51,7 +51,7 @@
                 <span class="">&copy;
                     <span class="update-year"></span> 
                     <a href="https://www.orionic.tech/" target="_blank" style="text-decoration:none;">
-                        <img src="<?php App::asset('logo-dark.png','img')?>" height="12px" style="margin-top:-4px;">
+                        <img src="<?php App::asset('logo-light.png','img')?>" height="12px" style="margin-top:-4px;">
                     </a>
                 </span>
                 <a class="type--fine-print" href="https://www.orionic.tech/about/" target="_blank">About Orion</a>
