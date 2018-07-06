@@ -171,7 +171,130 @@
                     <div class="col-md-12">
                         <h4>Detailed information on the processing of Personal Data</h4>
                         <p>Personal Data is collected for the following purposes and using the following services:</p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="accordion" id="accordion">
+                                    <div class="card">
+                                        <div class="card-header" id="headingOne">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            Advertising
+                                            </button>
+                                        </h5>
+                                        </div>
+
+                                        <div id="collapseOne" class="collapse hide" aria-labelledby="headingOne" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <p>This type of service allows User Data to be utilized for advertising communication purposes displayed in the form of banners and other advertisements on this Application, possibly based on User interests.<br>
+                                            This does not mean that all Personal Data are used for this purpose. Information and conditions of use are shown below.<br>
+                                            Some of the services listed below may use Cookies to identify Users or they may use the behavioral retargeting technique, i.e. displaying ads tailored to the User’s interests and behavior, including those detected outside this Application. For more information, please check the privacy policies of the relevant services.<br>
+                                            In addition to any opt out offered by any of the services below, the User may opt out of a third-party service's use of cookies by visiting the <a href="http://optout.networkadvertising.org/" target="_blank">Network Advertising Initiative opt-out page</a>.</p>
+                                            <h5>Unity Ads (Unity Technologies ApS)</h5>
+                                            <div class="wrap">
+                                                <p>Unity Ads is an advertising service provided by Unity Technologies ApS.</p>
+                                            </div>
+                                            <p>
+                                            Personal Data collected:
+                                            Cookies and Usage Data.
+                                            </p>
+                                            <p>
+                                            Place of processing:
+                                            Denmark
+                                            –
+                                            <a href="https://unity3d.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
+
+                                            </p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6"><div class="accordion" id="accordion">
+                                    <div class="card">
+                                        <div class="card-header" id="headingOne">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapsetwo" aria-expanded="true" aria-controls="collapseOne">
+                                            Analytics
+                                            </button>
+                                        </h5>
+                                        </div>
+
+                                        <div id="collapsetwo" class="collapse hide" aria-labelledby="headingOne" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <p>The services contained in this section enable the Owner to monitor and analyze web traffic and can be used to keep track of User behavior.</p>
+                                            <h4>Google Analytics (Google Inc.)</h4>
+                                            <div class="wrap">
+                                                <p>Google Analytics is a web analysis service provided by Google Inc. (“Google”). Google utilizes the Data collected to track and examine the use of this Application, to prepare reports on its activities and share them with other Google services.<br/>
+                                                Google may use the Data collected to contextualize and personalize the ads of its own advertising network.</p>
+                                            </div>
+                                            <p>
+                                            Personal Data collected:
+                                            Cookies and Usage Data.
+                                            </p>
+                                            <p>
+                                            Place of processing:
+                                            US
+                                            &ndash;
+                                            <a href="https://www.google.com/intl/en/policies/privacy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> &ndash; <a href="https://tools.google.com/dlpage/gaoptout?hl=en" onClick="javascript:return tryFunc('tryGaOptOut',{href:'https://tools.google.com/dlpage/gaoptout?hl=en'})" target="_blank">Opt Out</a>.
+                                            </p>
+                                            <h4>Unity Analytics (Unity Technologies ApS)</h4>
+                                            <div class="wrap">
+                                                <p>Unity Analytics is an analytics service provided by Unity Technologies ApS.</p>
+                                            </div>
+                                            <p>
+                                            Personal Data collected:
+                                            Usage Data and various types of Data as specified in the privacy policy of the service.
+                                            </p>                
+                                            <p>
+                                            Place of processing:Denmark
+                                            &ndash;
+                                            <a href="https://unity3d.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
+                                            </p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="accordion" id="accordion">
+                                    <div class="card">
+                                        <div class="card-header" id="headingOne">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapsehosting" aria-expanded="true" aria-controls="collapseOne">
+                                            Hosting and backend infrastructure
+                                            </button>
+                                        </h5>
+                                        </div>
+
+                                        <div id="collapsehosting" class="collapse hide" aria-labelledby="headingOne" data-parent="#accordion">
+                                        <div class="card-body">
+                                        <p>This type of service has the purpose of hosting Data and files that enable this Application to run and be distributed as well as to provide a ready-made infrastructure to run specific features or parts of this Application.
+                                        Some of these services work through geographically distributed servers, making it difficult to determine the actual location where the Personal Data are stored.</p>
+                                        <h4>Google Cloud Storage (Google Inc.)</h4>
+                                        <div class="wrap">
+                                            <p>Google Cloud Storage is a hosting service provided by Google Inc.</p>
+                                        </div>
+                                        <p>
+                                        Personal Data collected:
+                                        various types of Data as specified in the privacy policy of the service.
+                                        </p>
+                                        <p>
+                                        Place of processing:
+                                        United States
+                                        –
+                                        <a href="https://www.google.com/intl/policies/privacy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
+                                        Privacy Shield participant.
+                                        </p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
                     </div>
+                    <br>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
@@ -205,7 +328,7 @@
 
                                 <h4 id="further_data_processing_info">Additional information about Data collection and processing</h4>
                               
-                                <h3>Legal action</h3>
+                                <h5>Legal action</h5>
                                 <p>
                                   The User's Personal Data may be used for legal purposes by the Owner in Court or in the stages leading to possible legal action arising from improper use of this Application or the related Services.<br>The User declares to be aware that the Owner may be required to reveal personal data upon request of public authorities.
                                 </p>
@@ -225,8 +348,8 @@
                                   More details concerning the collection or processing of Personal Data may be requested from the Owner at any time. Please see the contact information at the beginning of this document.
                                 </p>
                               
-                                  <h3>How “Do Not Track” requests are handled</h3>
-                                  <p>
+                                <h5>How “Do Not Track” requests are handled</h5>
+                                <p>
                                     This Application does not support “Do Not Track” requests.<br>To determine whether any of the third-party services it uses honor the “Do Not Track” requests, please read their privacy policies.
                                   </p>
                               
@@ -235,9 +358,76 @@
                                   The Owner reserves the right to make changes to this privacy policy at any time by giving notice to its Users on this page and possibly within this Application and/or - as far as technically and legally feasible - sending a notice to Users via any contact information available to the Owner. It is strongly recommended to check this page often, referring to the date of the last modification listed at the bottom. <br><br>
                               Should the changes affect processing activities performed on the basis of the User’s consent, the Owner shall collect new consent from the User, where required.
                                 </p>
+                              <br>
                               
-                              
-                              </div>
+                        </div>
+                </div>
+                <div class="col-md-12">
+                    <hr>
+                    <div class="accordion" id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapsethree" aria-expanded="true" aria-controls="collapseOne">
+                                Definitions and legal references
+                                </button>
+                            </h5>
+                            </div>
+
+                            <div id="collapsethree" class="collapse hide" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="card-body">
+                            <h6>Personal Data (or Data)</h6>
+                            <p>Any information that directly, indirectly, or in connection with other information — including a personal identification number — allows for the identification or identifiability of a natural person.</p>
+
+                            <h6>Usage Data</h6>
+                            <p>Information collected automatically through this Application (or third-party services employed in this Application), which can include: the IP addresses or domain names of the computers utilized by the Users who use this Application, the URI addresses (Uniform Resource Identifier), the time of the request, the method utilized to submit the request to the server, the size of the file received in response, the numerical code indicating the status of the server's answer (successful outcome, error, etc.), the country of origin, the features of the browser and the operating system utilized by the User, the various time details per visit (e.g., the time spent on each page within the Application) and the details about the path followed within the Application with special reference to the sequence of pages visited, and other parameters about the device operating system and/or the User's IT environment.</p>
+
+                            <h6>User</h6>
+                            <p>The individual using this Application who, unless otherwise specified, coincides with the Data Subject.</p>
+
+                            <h6>Data Subject</h6>
+                            <p>The natural person to whom the Personal Data refers.</p>
+
+                            <h6>Data Processor (or Data Supervisor)</h6>
+                            <p>The natural or legal person, public authority, agency or other body which processes Personal Data on behalf of the Controller, as described in this privacy policy.</p>
+
+                            <h6>Data Controller (or Owner)</h6>
+                            <p>The natural or legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of the processing of Personal Data, including the security measures concerning the operation and use of this Application. The Data Controller, unless otherwise specified, is the Owner of this Application.</p>
+
+                            <h6>
+                                This Application
+                                
+                            </h6>
+                            <p>The means by which the Personal Data of the User is collected and processed.</p>
+
+                            <h6>Service</h6>
+                            <p>The service provided by this Application as described in the relative terms (if available) and on this site/application.</p>
+
+                            <h6>European Union (or EU)
+                        </h6>
+                            <p>Unless otherwise specified, all references made within this document to the European Union include all current member states to the European Union and the European Economic Area.
+                        </p>
+
+                                    <h6>Cookies</h6>
+                                    <p>Small piece of data stored in the User's device.</p>
+
+
+                            <hr />
+
+                            <h6>Legal information</h6>
+                            <p>This privacy statement has been prepared based on provisions of multiple legislations, including Art. 13/14 of Regulation (EU) 2016/679 (General Data Protection Regulation).</p>
+                            <p>This privacy policy relates solely to this Application, if not stated otherwise within this document.</p>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <br>
+                </div>
+                <div class="col-md-12">
+                    <p>
+                        Latest update: June 27, 2018
+                    </p>
                 </div>
             </div>
         </div>
