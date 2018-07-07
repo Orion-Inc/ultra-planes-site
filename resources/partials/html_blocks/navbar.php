@@ -1,11 +1,10 @@
 <div class="nav-container">
-    <nav class="bar bar-toggle pt-0 pb-0">
+    <nav class="bar bar-toggle bar--transparent bar--absolute" data-fixed-at="200">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-6">
                     <div class="bar__module">
                         <a href="home">
-                            <img class="logo logo-dark" alt="logo" src="<?php App::asset('logo-3.png','img')?>" />
                             <img class="logo logo-light" alt="logo" src="<?php App::asset('logo-3.png','img')?>" />
                         </a>
                     </div>
