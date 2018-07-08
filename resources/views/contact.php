@@ -1,4 +1,4 @@
-<section class="text-center height-30">
+<section class="text-center height-60">
     <div class="container pos-vertical-center">
         <div class="row">
             <div class="col-md-8 col-lg-6">
