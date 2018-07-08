@@ -6,7 +6,6 @@
     <link rel="shortcut icon" href="<?php App::asset('favicon.png','img')?>">
 
     <link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link href="assets/css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
     <link href="assets/css/socicon.css" rel="stylesheet" type="text/css" media="all" />
     <link href="assets/css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
