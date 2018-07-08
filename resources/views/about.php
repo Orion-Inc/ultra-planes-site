@@ -1,4 +1,7 @@
-<section class="cover height-80">
+<section class="cover height-70 imagebg parallax" data-overlay="5">
+    <div class="background-image-holder">
+        <img alt="background" src="<?php App::asset('bg-2.png','img/backgrounds')?>"/>
+    </div>
     <div class="container pos-vertical-center">
         <div class="row">
             <div class="col-md-11 col-lg-8">

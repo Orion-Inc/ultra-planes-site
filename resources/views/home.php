@@ -4,12 +4,15 @@
     </div>
     <div class="container pos-vertical-center">
         <div class="row">
-            <div class="col-md-8 col-lg-5">
+            <div class="col-md-8 col-lg-7">
                 <h1>
                     Ultra Planes <small style="font-size:40%">v1.0</small>
                 </h1>
                 <p class="lead">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quaerat itaque repellendus, accusantium beatae repudiandae eos dolor commodi deserunt, distinctio facilis suscipit. Nostrum nobis asperiores corporis minima eaque temporibus alias.
+                    In a galaxy pretty far away, a fierce battle between two forces changed everything.
+                    With these beautifully evolved battle-jets, travel through space and time, engage in space battles against the corrupted Ultra-Planes.
+                    Enjoy the variety of side missions all through the game with over 60 levels to play at your leisure.<br>
+                    Be the hero that's going to protect the galaxy!
                 </p>
                 <a class="btn btn--primary type--uppercase inner-link" href="#menu">
                     <span class="btn__text">
