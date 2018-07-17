@@ -14,36 +14,6 @@
     </div>
     <!--end of container-->
 </section>
-<section class="hidden">
-    <div class="container">
-        <div class="row">
-            <div class="slider slider--inline-arrows slider--arrows-hover" data-arrows="true">
-                <ul class="slides">
-                    <li class="col-md-3 col-6">
-                        <img alt="Image" class="image--xxs" src="img/partner-1.png" />
-                    </li>
-                    <li class="col-md-3 col-6">
-                        <img alt="Image" class="image--xxs" src="img/partner-2.png" />
-                    </li>
-                    <li class="col-md-3 col-6">
-                        <img alt="Image" class="image--xxs" src="img/partner-3.png" />
-                    </li>
-                    <li class="col-md-3 col-6">
-                        <img alt="Image" class="image--xxs" src="img/partner-4.png" />
-                    </li>
-                    <li class="col-md-3 col-6">
-                        <img alt="Image" class="image--xxs" src="img/partner-5.png" />
-                    </li>
-                    <li class="col-md-3 col-6">
-                        <img alt="Image" class="image--xxs" src="img/partner-6.png" />
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <!--end row-->
-    </div>
-    <!--end of container-->
-</section>
 <section class="bg--dark dark-1">
     <div class="container">
         <div class="row">

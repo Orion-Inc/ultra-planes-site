@@ -16,6 +16,29 @@
     width: 200px;
 }
 
+@media all and (max-width: 425px) {
+    .center {
+        margin: 0 auto;
+        width: 200px;
+        padding-bottom: 25%;
+    }
+    .market-button {
+        display: inline-block;
+        margin: 0 auto;
+        margin-bottom: 14px;
+        padding: 5px 14px 5px 60px;
+        transition: background-color .3s;
+        border: 1px solid #e1e7ec;
+        border-radius: 5px;
+        background-position: center left 12px;
+        background-color: #fff;
+        background-size: 24px 24px;
+        background-repeat: no-repeat;
+        text-decoration: none!important;
+        width: 200px;
+    }
+}
+
 .market-button:hover {
     background-color: #f5f5f5
 }

@@ -14,10 +14,11 @@
                     Enjoy the variety of side missions all through the game with over 60 levels to play at your leisure.<br>
                     Be the hero that's going to protect the galaxy!
                 </p>
-                <a class="market-button google-button mb-light-skin" href="#">
-                    <span class="mb-subtitle">Available on</span><span class="mb-title">Google Play</span>
-                </a>
-
+                <div class="center">
+                    <a class="market-button google-button mb-light-skin" href="#">
+                        <span class="mb-subtitle">Available on</span><span class="mb-title">Google Play</span>
+                    </a>
+                </div>
             </div>
             <div class="col-md-4 col-lg-5">
                 

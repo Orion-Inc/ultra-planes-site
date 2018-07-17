@@ -3974,6 +3974,12 @@ form[action*='list-manage.com'] .small-meta {
     padding: 1.85714286em 0;
 }
 
+@media all and (max-width: 768px) {
+    .bar {
+        padding: 0 0;
+    }
+}
+
 .bar .logo {
     margin: 0;
     position: relative;
