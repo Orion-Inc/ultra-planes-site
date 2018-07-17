@@ -1,6 +1,6 @@
 <section class="cover height-100 imagebg parallax" data-overlay="5">
     <div class="background-image-holder">
-        <img alt="background" src="<?php App::asset('bg-2.png','img/backgrounds')?>"/>
+        <img alt="background" src="<?php App::asset('bg-3.png','img/backgrounds')?>"/>
     </div>
     <div class="container pos-vertical-center">
         <div class="row">
@@ -14,14 +14,14 @@
                     Enjoy the variety of side missions all through the game with over 60 levels to play at your leisure.<br>
                     Be the hero that's going to protect the galaxy!
                 </p>
-                <a class="btn btn--primary type--uppercase inner-link" href="#menu">
-                    <span class="btn__text">
-                        Explore The Menu
-                    </span>
+                <a class="market-button google-button mb-light-skin" href="#">
+                    <span class="mb-subtitle">Available on</span><span class="mb-title">Google Play</span>
                 </a>
+
+            </div>
+            <div class="col-md-4 col-lg-5">
+                
             </div>
         </div>
-        <!--end of row-->
     </div>
-    <!--end of container-->
 </section>

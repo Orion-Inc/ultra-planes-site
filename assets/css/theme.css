@@ -352,6 +352,11 @@ body {
     overflow-x: hidden;
 }
 
+.main-container {
+    position: relative;
+    overflow: auto;
+}
+
 .pos-relative {
     position: relative;
 }
@@ -3427,6 +3432,10 @@ a {
 
 .bg--dark {
     background: #252525;
+}
+
+.dark-1 {
+    background: #121212!important
 }
 
 .bg--dark:not(.nav-bar):not(.bar) {

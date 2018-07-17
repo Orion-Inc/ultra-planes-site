@@ -1,4 +1,5 @@
 <script src="assets/js/jquery-3.1.1.min.js"></script>
+<script src="assets/js/perfect-scrollbar.min.js" type="text/javascript"></script>
 <script src="assets/js/flickity.min.js"></script>
 <script src="assets/js/easypiechart.min.js"></script>
 <script src="assets/js/parallax.js"></script>

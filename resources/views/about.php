@@ -44,7 +44,7 @@
     </div>
     <!--end of container-->
 </section>
-<section class="bg--dark">
+<section class="bg--dark dark-1">
     <div class="container">
         <div class="row">
             <div class="col-md-4">
